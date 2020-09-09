@@ -412,19 +412,53 @@
 				throw 'The reveal.js Markdown plugin requires marked to be loaded';
 			}
 
+			var options = Reveal.getConfig().markdown;
+			const CODE_LINE_NUMBER_REGEX = /\[([\s\d,|-]*)\]/;
+
 			if( typeof hljs !== 'undefined' ) {
 				marked.setOptions({
 					highlight: function( code, lang ) {
+						console.log("hl");
 						return hljs.highlightAuto( code, [lang] ).value;
 					}
 				});
+
+				let renderer = new marked.Renderer();
+
+				marked.setOptions({ renderer, ...options });
+				let c = renderer.code;
+				renderer.code = ( code, language, escaped ) => {
+
+					// Off by default
+					let lineNumbers = '';
+
+					// Users can opt in to show line numbers and highlight
+					// specific lines.
+					// ```javascript []        show line numbers
+					// ```javascript [1,4-8]   highlights lines 1 and 4-8
+					if( CODE_LINE_NUMBER_REGEX.test( language ) ) {
+						console.log("hej");
+						lineNumbers = language.match( CODE_LINE_NUMBER_REGEX )[1].trim();
+						lineNumbers = `data-line-numbers="${lineNumbers}"`;
+						language = language.replace( CODE_LINE_NUMBER_REGEX, '' ).trim();
+					
+						let orig = c.apply(renderer, [code, language, escaped]);
+						//console.log(orig);
+						return orig.replace("<code", `<code ${lineNumbers}`);
+					} else { 
+						return c.apply(renderer, [code, language, escaped]);
+					}
+				};
+
+				
+			} else {
+				// marked can be configured via reveal.js config options
+				if( options ) {
+					marked.setOptions( options );
+				}
 			}
 
-			// marked can be configured via reveal.js config options
-			var options = Reveal.getConfig().markdown;
-			if( options ) {
-				marked.setOptions( options );
-			}
+			
 
 			return processSlides().then( convertSlides );
 
