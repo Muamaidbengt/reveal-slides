@@ -55,7 +55,7 @@ Vi kommer fokusera på DTDD idag
 
 ---
 <!-- .slide: data-background="black" -->
-![Death star construction](img/deathstar2.jpg) <!-- .element: class="plain" style="max-height: 500px"-->
+![Death star construction](img/DeathStar2.jpg) <!-- .element: class="plain" style="max-height: 500px"-->
 
 Note: 
 - Vi gör i regel en hel massa design- och arkitekturbeslut up-front.
@@ -210,7 +210,7 @@ Note:
 ---
 
 #### Parprogrammera
-![The droids you're looking for](img/droids.png) <!-- .element: class="plain" -->
+![The droids you're looking for](img/Droids.png) <!-- .element: class="plain" -->
 
 Note: 
 - Coacha utvecklare att tänka test och tänka kritiskt om sin lösning
