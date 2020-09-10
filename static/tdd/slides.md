@@ -30,16 +30,20 @@ Design <!-- .element: class="horizontal-para"-->
 ### Vad är TDD?
 
 - Rötter i eXtreme Programming/Test-First
-- Iterativt arbetssätt (Red-Green-Refactor)
+- Iterativt inkrementellt arbetssätt (Red-Green-Refactor)
 - Kan appliceras på flera nivåer (ATDD, DTDD, &hellip;)
 
 Note:
-Vi kommer fokusera på DTDD idag
+- Vi kommer fokusera på DTDD idag
+- Principerna är ungefär desamma för ATDD
 
 ---
 
 ![Red-Green-Refactor](img/TDD.png)
 <cite>Image credit: `https://github.com/prakashshuklahub`</cite>
+
+Note:
+- Den här känner du kanske igen
 
 ---
 
@@ -87,7 +91,7 @@ class Cart {
     public void RemoveAt(int index) { }
 }
 ``` 
-<!-- .element: class="fragment toggle zoom-in" data-line-numbers="3"  -->
+<!-- .element: class="fragment toggle zoom-in" -->
 
 ```csharp
 [Test]
@@ -102,7 +106,7 @@ class Cart {
     void Remove(String itemToRemove) { }
 }
 ``` 
-<!-- .element: class="fragment toggle zoom-in" data-line-numbers="3"  -->
+<!-- .element: class="fragment toggle" -->
 
 ```csharp
 [Test]
@@ -120,7 +124,7 @@ class CartItem {
     void Remove() { }
 }
 ``` 
-<!-- .element: class="fragment toggle" data-line-numbers="3" -->
+<!-- .element: class="fragment toggle" -->
 
 ```csharp
 [Test]
@@ -200,7 +204,7 @@ Note:
 
 ### Det här kräver Jedi-krafter
 
-![Help me, Obi-Wan!](img/hologram.gif)
+![Help me, Obi-Wan!](img/hologram.gif) <!-- .element: class="plain" -->
 
 #### Eller? <!-- .element: class="fragment"-->
 
@@ -238,7 +242,7 @@ Note:
 ---
 
 #### Öva TDD med Katas
-![Lightsaber training](img/lightsaber_training.gif)
+![Lightsaber training](img/lightsaber_training.gif) <!-- .element: class="plain" -->
 
 Note:
 - Öva TDD själv eller tillsammans i teamet genom att göra Katas (finns massor på nätet)
