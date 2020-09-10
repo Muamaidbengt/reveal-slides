@@ -1,6 +1,8 @@
-## Testdriven utveckling
+### Testdriven utveckling
+#### Lemontree 2020-09-10
 
-![Lego dummy](img/lego-dummy.png)<!-- .element: class="plain" -->
+![Rebel Scum](img/rebelscum.jpg)<!-- .element: class="plain" style="max-height:500px" -->
+
 ***
 
 #### Traditionell utveckling
