@@ -418,7 +418,6 @@
 			if( typeof hljs !== 'undefined' ) {
 				marked.setOptions({
 					highlight: function( code, lang ) {
-						console.log("hl");
 						return hljs.highlightAuto( code, [lang] ).value;
 					}
 				});
@@ -437,13 +436,11 @@
 					// ```javascript []        show line numbers
 					// ```javascript [1,4-8]   highlights lines 1 and 4-8
 					if( CODE_LINE_NUMBER_REGEX.test( language ) ) {
-						console.log("hej");
 						lineNumbers = language.match( CODE_LINE_NUMBER_REGEX )[1].trim();
 						lineNumbers = `data-line-numbers="${lineNumbers}"`;
 						language = language.replace( CODE_LINE_NUMBER_REGEX, '' ).trim();
 					
 						let orig = c.apply(renderer, [code, language, escaped]);
-						//console.log(orig);
 						return orig.replace("<code", `<code ${lineNumbers}`);
 					} else { 
 						return c.apply(renderer, [code, language, escaped]);
