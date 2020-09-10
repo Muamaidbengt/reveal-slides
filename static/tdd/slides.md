@@ -202,15 +202,15 @@ Note:
 
 ***
 
-### Det här kräver Jedi-krafter
+#### Det här kräver Jedi-krafter
 
 ![Help me, Obi-Wan!](img/hologram.gif) <!-- .element: class="plain" -->
 
-#### Eller? <!-- .element: class="fragment"-->
+##### Eller? <!-- .element: class="fragment"-->
 
 ***
 
-### Vad kan vi som testare göra?
+#### Vad kan vi som testare göra?
 
 ![Use the Force, Luke!](img/usetheforce.gif) <!-- .element: class="plain fragment" -->
 ---
