@@ -39,7 +39,7 @@ Vi kommer fokusera på DTDD idag
 ---
 
 ![Red-Green-Refactor](img/TDD.png)
-<cite>`https://github.com/prakashshuklahub`</cite>
+<cite>Image credit: `https://github.com/prakashshuklahub`</cite>
 
 ---
 

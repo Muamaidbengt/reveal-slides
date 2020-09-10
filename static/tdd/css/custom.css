@@ -29,3 +29,7 @@
     max-width: 2em;
     margin: -0.5em 0;
 }
+
+.reveal .slides section cite {
+    font-size: 30px;
+}
