@@ -6,6 +6,8 @@
 
 ### Vem är jag?
 
+![Imposter](images/impostor.jpg)
+
 ---
 
 ### Utvecklat i Microsoft.NET sedan 2003
