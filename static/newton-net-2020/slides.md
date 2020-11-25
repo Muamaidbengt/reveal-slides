@@ -58,6 +58,8 @@
 ### Konsultuppdraget
 > **Skatteverket** (värdmyndighet för Valmyndigheten).
 
+![Sheriffen av Nottingham](images/nottingham.jpg)
+
 ---
 
 ### Vårt team
@@ -65,8 +67,9 @@
 - 4 utvecklare
 - 3 testare
 - 2 kravare
-
 *(varav 2 från YH)*
+![The Fellowship of the Ring](images/fellowship.jpg)
+
 Note:
 - Flera juniora medarbetare och mycket teknik som är obekant
 
