@@ -67,6 +67,8 @@
 - 2 kravare
 
 *(varav 2 från YH)*
+Note:
+- Flera juniora medarbetare och mycket teknik som är obekant
 
 ---
 
@@ -85,10 +87,12 @@
 ***
 
 ### Från .NET till Java
-
-<!-- TODO: Fyll på -->
-- Stora likheter (särskilt m. Spring Boot)
-- Svårt hitta verktyg för instrumentering, debug, felsöka minnesläckor m.m.
+![Darwin's Finches](images/finches.jpg)
+Note:
+- Mycket nytt -- vad kan jag bidra med till teamet?
+- Men mycket stora likheter mellan .NET Core och Java Spring Boot
+- Svårt hitta bland alla nya verktyg - vilket gör vad?
+- Kubernetes helt nytt (men även för alla andra i teamet)
 
 ***
 
@@ -104,16 +108,24 @@
 
 ### Felsökning
 ![Sherlock](images/sherlock.jpg)
+Note:
+- Svårt att hitta verktyg för instrumentering, debug, felsöka minnesanvändning m.m.
 
 ---
 
 ### Övervakning av miljöer & loggar
 ![Matrix](images/matrix_tank.jpg)
+Note:
+- Alla loggar från olika microtjänster samlas i Kibana
+- Genom att kika i loggarna och felsöka märker man snart var det saknas information
 
 ---
 
 ### Parprogrammering och mentoring
 ![Batman](images/batman.jpg)
+Note: 
+- Bra sätt att sprida erfarenheter vidare
+- Många "klassiska" problem (minnesläckage, ineffektiva algoritmer etc) uppenbaras snabbare i microservices pga varje podd har väldigt begränsat med resurser
 
 ---
 
