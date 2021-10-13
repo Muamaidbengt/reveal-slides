@@ -4,7 +4,13 @@
 
 ***
 
+```sh [|1|2-3]
+$ terraform init
+$ terraform plan
+$ terraform apply
+```
 
+***
 
 ### Tack för mig!
 

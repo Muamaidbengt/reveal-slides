@@ -8,7 +8,7 @@ img, .reveal section img {
     margin: -0.5em 0;
 }
 
-body {
+body.reveal-viewport {
     background: url("../images/metal.jpg");
 	background-position: center;
     background-size: cover;
