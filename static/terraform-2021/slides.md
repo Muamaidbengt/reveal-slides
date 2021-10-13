@@ -1,6 +1,8 @@
-## Terraform
-#### Lemontree
-#### 2021
+# Terraform
+
+## Lemontree
+
+### 2021
 
 ***
 
@@ -12,7 +14,7 @@ $ terraform apply
 
 ***
 
-### Tack för mig!
+### Tack för mig
 
 ![Twitter](images/twitter.png) @muamaidbengt
 
