@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Terraform</title>
+<meta name="author" content="Tomas Rosenqvist"/>
+<link rel="stylesheet" href="../reveal/css/reveal.css"/>
+<link rel="stylesheet" href="../reveal/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="../reveal/css/monokai.css">
+<link rel="stylesheet" href="css/custom.css">
+
+<!--<link rel="stylesheet" href="./css/print/pdf.css" type="text/css" media="print"/>-->
+<meta name="description" content="Terraform">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown="slides.md"
+         data-separator="^\*\*\*$"
+         data-separator-vertical="^---$"
+         data-separator-notes="^Note:"
+         data-charset="utf-8">
+        </section>
+    </div>
+</div>
+<script src="../reveal/reveal.js"></script>
+<script src="../reveal/plugin/zoom-js/zoom.js"></script>
+<script src="../reveal/plugin/notes/notes.js"></script>
+<script src="../reveal/plugin/search/search.js"></script>
+<script src="../reveal/plugin/markdown/marked.js"></script>
+<script src="../reveal/plugin/markdown/markdown.js"></script>
+<script src="../reveal/plugin/highlight/highlight.js"></script>
+<script>
+
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: false,
+
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        dependencies: [
+            { src: 'https://d3js.org/d3.v4.min.js' },
+            { src: '../reveal/plugin/d3js/d3js.js' }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
