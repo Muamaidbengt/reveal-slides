@@ -1,0 +1,15 @@
+img, .reveal section img {
+    border: 0;
+}
+
+.reveal section img[alt='Twitter'], .reveal section img[alt='Github'] {
+    background: none;
+    max-width: 2em;
+    margin: -0.5em 0;
+}
+
+body {
+    background: url("../images/metal.jpg");
+	background-position: center;
+    background-size: cover;
+}
