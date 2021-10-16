@@ -13,3 +13,7 @@ body.reveal-viewport {
 	background-position: center;
     background-size: cover;
 }
+
+.contrast-background {
+    background-color: gainsboro;
+}

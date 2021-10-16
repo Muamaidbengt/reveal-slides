@@ -6,6 +6,21 @@
 
 ***
 
+## Infrastructure
+
+![Hammer](images/hammer.jpg)
+
+Note: 
+
+---
+
+## Infrastructure as Code
+
+![Infra as Code](images/terraform-iac.png) <!-- .element: class="contrast-background"  -->
+
+
+***
+
 ```sh [|1|2-3]
 $ terraform init
 $ terraform plan
