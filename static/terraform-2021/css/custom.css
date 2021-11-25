@@ -17,3 +17,15 @@ body.reveal-viewport {
 .contrast-background {
     background-color: gainsboro;
 }
+
+.contrast-text {
+    color:#fffff1;
+}
+
+.contrast-frame {
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.reveal .slides section .fragment.semi-fade-out.fade-75.visible {
+    /*opacity: .25;*/
+}
