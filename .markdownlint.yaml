@@ -1,0 +1,6 @@
+MD012: false # consecutive blank lines
+MD013: false
+MD014: false # allow dollar signs in code blocks only if followed by output
+MD024: false # multiple headings on same level
+MD033: false # no inline HTML
+MD035: false # consistent section break style
