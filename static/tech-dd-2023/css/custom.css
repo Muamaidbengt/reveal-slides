@@ -1,16 +1,18 @@
-img, .reveal section img {
+img,
+.reveal section img {
     border: 0;
 }
 
-.reveal section img[alt='Twitter'], .reveal section img[alt='Github'] {
+.reveal section img[alt='Twitter'],
+.reveal section img[alt='Github'] {
     background: none;
     max-width: 2em;
     margin: -0.5em 0;
 }
 
 body.reveal-viewport {
-    background: url("../images/metal.jpg");
-	background-position: center;
+    background: url("../img/metal.jpg");
+    background-position: center;
     background-size: cover;
 }
 
@@ -19,7 +21,7 @@ body.reveal-viewport {
 }
 
 .contrast-text {
-    color:#fffff1;
+    color: #fffff1;
 }
 
 .contrast-frame {
